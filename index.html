@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="logo" href="logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>K1</title>
+</head>
+<body>
+    <section class="section1">
+        <header class="header">
+            <img src="logo.jpg" alt="Logo">
+            <nav class="nav-bar">
+                <a href="#HOME">HOME</a>
+                <a href="#ABOUT">ABOUT</a>
+                <a href="#FEATURES">FEATURES</a>
+                <a href="#ORDER">ORDER</a>
+                <a href="#CONTACT">CONTACT</a>
+                <a href="#FOLLOW">FOLLOW</a>
+            </nav>
+        </header>
+    </section>
+)
+
+    <section id="HOME" class="home">
+        <div class="left">
+            <h1>Luminous  <br> Bracelet</h1>
+            <p>Radiate Love: Illuminate Your Connection with a Luminous Bracelet</p>
+            <!-- Ajoutez ici le bouton -->
+            <button><a href="#FEATURES">Explore</a></button>
+        </div>
+        <div class="right">
+            <img src="img1.jpg" alt="Bracelet en 3D">
+        </div>
+    </section>
+
+    <section id="ABOUT" class="about">
+        <h1>ABOUT</h1>
+        <p>The 'Luminous Bracelet' is a shiny piece of jewelry that adds a touch of magic to your look. Diverse luminous bracelet designs to match various styles, adding a radiant touch to your wrist.</p>
+            <div class="about-div">
+                <div class="about-div-img1">
+                    <img src="img5.png" alt="">
+                    <p>4.89$</p>
+                    <button><a href="#FEATURES">Shop now</a></button>
+                </div>  
+                <div class="about-div-img2">
+                    <img src="img4.png" alt="">
+                    <p>4.89$</p>
+                    <button><a href="#FEATURES">Shop now</a></button>
+                </div>    
+                <div class="about-div-img3">
+                    <img src="img3.png" alt="">
+                    <p>4.89$</p>
+                    <button><a href="#FEATURES">Shop now</a></button>
+                </div>
+                <div class="about-div-img4">
+                    <img src="img1.png" alt="">
+                    <p>4.89</p>
+                    <button><a href="#FEATURES">Shop now</a></button>
+                </div>          
+            </div>
+    </section>
+
+    <section class="section2">
+        <section id="FEATURES" class="features">
+                <img src="img2.png" alt="">
+                <div class="features-div">
+                    <h1>Features</h1>
+                    <ul>
+                        <li>Illuminate Your Love Story</li>
+                        <li>Elegance Comfortably on the Wrist</li>
+                        <li>Lights that Last and Last</li>
+                        <li>Express Yourself with Light</li>
+                        <li>Always Ready to Shine</li>
+                        <li>Personal Style on Your Wrist</li>
+                        <li>Unforgettable Moments Illuminated</li>
+                        <li>The Language of Love in Light</li>
+                    </ul>
+                </div>
+        </section>
+
+
+        
+        <div id="ORDER" class="order-section">
+            <div class="left-column">
+                <button class="arrow-button left-arrow">&#8249;</button>
+                <img src="img1.jpg" alt="Bracelet 1" class="product-image">
+                <button class="arrow-button right-arrow">&#8250;</button>
+            </div>
+            <div class="right-column">
+                <h2>ORDER <br> 4.89$</h2>
+                <p>Capturing the glow of romance, these luminous bracelets are more than accessories—they're symbols of love. Their subtle glow creates a magical atmosphere, uniting two hearts with each shimmer. Carefully crafted, these minimalist bracelets make the perfect gift to celebrate the shining love between you and your partner. Wear them proudly every day, or gift them to create dazzling moments.</p>
+                <div class="product-options">
+                    <label for="bracelet-select">Choisissez un bracelet :</label>
+                    <select id="bracelet-select">
+                        <option value="1">Bracelet 1</option>
+                        <option value="2">Bracelet 2</option>
+                        <option value="3">Bracelet 3</option>
+                        <option value="4">Bracelet 4</option>
+                    </select>
+                    <label for="quantity-input">Quantité :</label>
+                    <input type="number" id="quantity-input" min="1" max="20" value="1">
+                </div>
+            </div>
+        </div>
+
+
+    <section id="CONTACT" class="contact">
+        <h2>Contact-us</h2>
+        <form class="contact-form" action="contact.php" method="post">
+            <label for="full-name">Full name :</label>
+            <input type="text" id="full-name" name="full-name" required>
+
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+
+    <section class="footer_section">
+        <footer id="FOLLOW" class="footer">
+            <h1>FOLLOW US</h1>
+            <div class="waves">
+              <div class="wave" id="wave1"></div>
+              <div class="wave" id="wave2"></div>
+              <div class="wave" id="wave3"></div>
+              <div class="wave" id="wave4"></div>
+            </div>                                                          
+            <ul class="social-icon">
+              <li class="social-icon__item"><a class="social-icon__link" href="#">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a></li>
+              <li class="social-icon__item"><a class="social-icon__link" href="#">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a></li>
+              <li class="social-icon__item"><a class="social-icon__link" href="#">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <ion-icon name="logo-tiktok"></ion-icon>
+                </a></li>
+            </ul>
+            <ul class="menu">
+              <li class="menu__item"><a class="menu__link" href="#HOME">Home</a></li>
+              <li class="menu__item"><a class="menu__link" href="#ABOUT">About</a></li>
+              <li class="menu__item"><a class="menu__link" href="#FEATURES">Features</a></li>
+              <li class="menu__item"><a class="menu__link" href="#ORDER">Order</a></li>
+              <li class="menu__item"><a class="menu__link" href="#CONTACT">Contact</a></li>
+              <li class="menu__item"><a class="menu__link" href="#FOLLOW">Follow us</a></li>
+        
+            </ul>
+            <p>&copy; K1 | All Rights Reserved</p>
+          </footer>
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        </section>
+        
+
+    
+</body>
+</html>
+
